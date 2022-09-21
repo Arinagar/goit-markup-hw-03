@@ -26,6 +26,10 @@ body {
   margin: 0;
   padding: 0;
 }
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
 
 .description {
   display: none;
@@ -202,8 +206,9 @@ img {
   margin: 0;
 }
 
-.top-container {
+.main .top-container {
   background-color: var(--first-background-color);
+  text-align: center;
 }
 
 .hero {
