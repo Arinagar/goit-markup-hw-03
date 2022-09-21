@@ -1,3 +1,5 @@
+/*GENERAL*/
+
 *,
 *::before,
 *::after {
@@ -11,8 +13,18 @@ body {
  letter-spacing: 0.03em;
 }
 
+/* УТИЛИТЫ */
+
+.list {
+  list-style: none;
+}
+
+
+/* HEADER */
+
 .header {
   border-bottom: 1px solid #ECECEC;
+  display: flex;
 }
 .logo {
     font-family: 'Raleway';
@@ -32,7 +44,13 @@ body {
 }
 .header a {
   text-decoration: none;
+
 }
+.page-navigation {
+  display: flex;
+  
+}
+
 .page-navigation li {
   font-weight: 500;
   line-height: 1.14;
@@ -43,9 +61,27 @@ body {
 .page-navigation a {
   color:#000000;
 }
-.list {
-  list-style: none;
+.page-navigation .container-nav {
+  display: flex;
 }
+.container-nav .item+.item {
+  margin-left: 50px;
+}
+
+.header .container-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header .container-header .item + .item {
+  margin-left: 
+}
+
+
+
+
+/* MAIN */
+
 .button {
   font-size: 16px;
   font-weight: 500;
