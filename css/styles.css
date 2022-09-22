@@ -21,7 +21,7 @@ body {
 
 /* UTILITIES */
 .list,
-.contacts-list, .buttons-list {
+.contacts-list, .buttons-list, .benefits-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -209,9 +209,16 @@ img {
 .main .top-container {
   background-color: var(--first-background-color);
   text-align: center;
+  padding: 200px 0;
 }
 
 .hero {
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 696px;
+
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -221,6 +228,8 @@ img {
 }
 
 .top-container .button {
+  padding: 10px 32px;
+
   color: var(--fourth-color);
   background-color: var(--third-background-color);
   font-family: inherit;
@@ -232,15 +241,46 @@ img {
   border-radius: 4px;
 }
 
-.f-child .list .title {
+.f-child .container {
+  padding: 94px 0;
+}
+.f-child .benefit {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  text-align: left;
+}
+
+.benefits-list .item + .item {
+  margin-left: 30px;
+}
+.f-child .benefits-list {
+  display: flex;
+}
+
+.f-child .benefits-list .title {
+  padding-bottom: 10px;
   font-size: inherit;
   font-weight: 700;
   line-height: 1.14;
 }
 
-.f-child .list .text {
+.f-child .benefits-list .text {
   line-height: 1.71;
   color: var(--second-color);
+}
+
+.s-child .sec-des {
+  text-align: center;
+}
+
+.s-child .container {
+  display: flex;
+  justify-content: center;
+}
+
+.s-child .list .item + .item {
+  margin-left: 30px;
 }
 
 .sec-des {
@@ -249,17 +289,44 @@ img {
   line-height: 1.16;
 }
 
+.t-child {
+  background-color: var(--second-background-color);
+}
+
+.t-child .sec-des {
+  text-align: center;
+  padding: 94px 0 50px ;
+}
+
 .t-child .list .name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.187;
+  text-align: center;
 }
 
 .t-child .list .role {
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.187;
   color: var(--second-color);
+  text-align: center;
+}
+
+.t-child .person-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 24px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  
+  /* border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  border-radius: 4px; */
+}
+.t-child img {
+  border-radius: 2px 2px 0 0;
 }
 
 /* BODY END */
