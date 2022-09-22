@@ -242,7 +242,7 @@ img {
 }
 
 .f-child .container {
-  padding: 94px 0;
+  padding: 94px 15px;
 }
 .f-child .benefit {
   display: flex;
