@@ -263,6 +263,10 @@ img {
 .f-child .container {
   padding: 0 15px;
 }
+
+.f-child {
+  padding-bottom: 0;
+}
 .f-child .benefit {
   display: flex;
   flex-direction: column;
@@ -278,7 +282,7 @@ img {
 }
 
 .f-child .benefits-list .title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-size: inherit;
   font-weight: 700;
   line-height: 1.14;
@@ -292,6 +296,7 @@ img {
 .s-child .sec-des {
   text-align: center;
   margin-bottom: 50px;
+  padding-top: 0;
 }
 
 .s-child .container {
@@ -320,7 +325,7 @@ img {
 
 .t-child .sec-des {
   text-align: center;
-  margin-bottom: 94px;
+  margin-bottom: 50px;
 }
 
 .t-child .list .name {
@@ -340,6 +345,7 @@ img {
 
 .t-child .person-card {
   padding: 20px 24px;
+  background-color: var(--fourth-color);
 }
 /* BODY END */
 
